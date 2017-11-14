@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- override repos -->
+  <remove-project name="android_hardware_qcom_wlan" />
+  <remove-project name="android_hardware_qcom_audio" />
+  <remove-project name="android_hardware_qcom_display" />
+  <remove-project name="android_hardware_qcom_media" />
+
+  <!-- ghost repos -->
+  <project path="device/motorola/ghost" name="luisbocanegra/android_device_motorola_ghost" remote="github" revision="m-caf" />
+  <project path="device/motorola/msm8960dt-common" name="luisbocanegra/android_device_motorola_msm8960dt-common" remote="github" revision="m-caf" />
+  <project path="kernel/motorola/ghost" name="luisbocanegra/android_kernel_motorola_ghost" remote="github" revision="m-caf" />
+  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-13.0" />
+
+  <!-- du repos -->
+  <project path="hardware/qcom/wlan" name="DirtyUnicorns/android_hardware_qcom_wlan" remote="github" revision="m-caf" />
+  <project path="system/qcom" name="DirtyUnicorns/android_system_qcom" remote="github" revision="m-caf" />
+  <project path="external/stlport" name="DirtyUnicorns/android_external_stlport" remote="github" revision="m-caf" />
+  <project path="external/sony/boringssl-compat" name="DirtyUnicorns/android_external_sony_boringssl-compat" remote="github" revision="m-caf" />
+
+  <!-- lineage repos -->
+  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="github" revision="cm-13.0" />
+  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="github" revision="cm-13.0" />
+  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="github" revision="cm-13.0" />
+  <project path="external/connectivity" name="LineageOS/android_external_connectivity" remote="github" revision="cm-13.0" />
+  <!--<project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" remote="github" revision="cm-13.0" />-->
+  <!--<project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="github" revision="cm-13.0" />-->
+
+  <!-- hals repos -->
+  <project path="hardware/qcom/audio/default" name="DirtyUnicorns/android_hardware_qcom_audio" remote="github" revision="m-caf" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="cm-13.0-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="DirtyUnicorns/android_hardware_qcom_audio" remote="github" revision="m-caf-8996" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="DirtyUnicorns/android_hardware_qcom_audio" remote="github" revision="m-caf-8960" />
+  <project path="hardware/qcom/display" name="DirtyUnicorns/android_hardware_qcom_display" remote="github" revision="m-caf" />
+  <project path="hardware/qcom/display-caf/msm8974" name="LineageOS/android_hardware_qcom_display" remote="github" revision="cm-13.0-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8996" name="DirtyUnicorns/android_hardware_qcom_display" remote="github" revision="m-caf-8996" />
+  <project path="hardware/qcom/display-caf/msm8960" name="DirtyUnicorns/android_hardware_qcom_display" remote="github" revision="m-caf-8960" />
+  <project path="hardware/qcom/media" name="DirtyUnicorns/android_hardware_qcom_media" remote="github" revision="m-caf" />
+  <project path="hardware/qcom/media-caf/msm8974" name="LineageOS/android_hardware_qcom_media" remote="github" revision="cm-13.0-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8996" name="DirtyUnicorns/android_hardware_qcom_media" remote="github" revision="m-caf-8996" />
+  <project path="hardware/qcom/media-caf/msm8960" name="DirtyUnicorns/android_hardware_qcom_media" remote="github" revision="m-caf-8960" />
+
+</manifest>
