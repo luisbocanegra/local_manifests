@@ -5,7 +5,7 @@
   <project path="device/motorola/ghost" name="luisbocanegra/android_device_motorola_ghost-1" remote="github" revision="cm-14.1" />
   <project path="device/motorola/msm8960dt-common" name="luisbocanegra/android_device_motorola_msm8960dt-common-1" remote="github" revision="cm-14.1" />
   <project path="kernel/motorola/ghost" name="luisbocanegra/android_kernel_motorola_ghost-1" remote="github" revision="cm-14.1" />
-  <project path="vendor/motorola" name="XPerience-AOSP-Lollipop/proprietary_vendor_motorola" remote="github" revision="xpe-11.1" />
+  <project path="vendor/motorola" name="luisbocanegra/proprietary_vendor_motorola" remote="github" revision="cm-14.1" />
   <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="cm-14.1" />
   <project path="external/stlport" name="LineageOS/android_external_stlport" remote="github" revision="cm-14.1" />
 
